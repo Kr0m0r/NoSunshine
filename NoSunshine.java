@@ -8,14 +8,13 @@ String i="I know, ";
 v(n,"It's not warm when she's away\n",n,"And she's always gone too long\n");
 p(a);
 v("Wonder this time where she's gone\nWonder if she's gone to stay\n",n,b,a);
-p("And ");
-v(i,i,i,c);
+v("And ",i,i,i);
 for(int x=0;x<4;x++){
-v(i,i,i,i);
 p(c);
+v(i,i,i,i);
 }
-v(i,c,"Hey, I ought to leave young thing alone\n","But ain't no sunshine when she's gone, whoa-whoa");
-v(n,"Only darkness every day",n,b);
+v(c,i,c,"Hey, I ought to leave young thing alone\nBut ain't no sunshine when she's gone, whoa-whoa\n");
+v(n,"Only darkness every day\n",n,b);
 v(a,a,a,a);
 }public static void p(String t){
 System.out.print(t);
